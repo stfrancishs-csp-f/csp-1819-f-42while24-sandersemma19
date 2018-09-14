@@ -5,7 +5,7 @@ int main(void)
     int k;
 
     k=0;
-    while (k<5)
+    while (k<10)
 
 
     {
@@ -16,7 +16,7 @@ int main(void)
     printf ("%d\n",sum);
 
     {
-    for (k=5; k>0;k=k-1)
+    for (k=10; k>0;k=k-1)
         printf ("%d\n", k);
     }
 
