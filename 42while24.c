@@ -5,18 +5,18 @@ int main(void)
     int k;
 
     k=0;
-    while (k<10)
+    while (k<5)
 
 
     {
-        sum+=k; //use something different in "while" version
+        sum=sum+k; //use something different in "while" version
         k ++;
     }
 
     printf ("%d\n",sum);
 
     {
-    for (k=10; k>0;k=k-1)
+    for (k=9; k>=0;k--)
         printf ("%d\n", k);
     }
 
