@@ -10,7 +10,7 @@ int main(void)
         //use something different in "while" version
         printf ("%d\n",k);
         sum=sum+k;
-        k ++;
+        k++;
     }
 
 
@@ -21,11 +21,12 @@ int main(void)
     //k=5;
 
     //while (k>0)
-    for (k=9; k>=0;k--)
+    for (k=10; k>0;k--)
     {
         //k=k-1 //use something different is "for"
-        printf ("%d\n", k);
+        printf ("%2d\n", k);
     }
+    printf ("blastoff!");
 
 }
 
